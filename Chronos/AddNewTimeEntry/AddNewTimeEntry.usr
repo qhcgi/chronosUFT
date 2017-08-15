@@ -12,9 +12,9 @@ DevelopTool=AQT
 
 [Actions]
 Action0=Action0\Script.mts
-Begin Entry=Action1\Script.mts
-Input Entry Values=Action2\Script.mts
-Delete Entry=Action3\Script.mts
+BeginEntry=Action1\Script.mts
+InputEntryValues=Action2\Script.mts
+DeleteEntry=Action3\Script.mts
 
 [VuserProfiles]
 Profiles=Default Profile
