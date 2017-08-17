@@ -37,12 +37,18 @@ ProductName=HPE Unified Functional Testing
 Version=14.0
 
 [TulipAddins]
+ActiveX=
 Database=
 File Content=
 Insight=
+Silverlight=
 Windows Applications=
 TEA=
+Visual Basic=
 Web=
+.NET=
+Windows Runtime=
+WPF=
 XML=
 
 [ExtraFiles]
