@@ -6,4 +6,4 @@ Browser("Chronos Time Entry for").Page("Chronos Time Entry for").WebList("organi
 Browser("Chronos Time Entry for").Page("Chronos Time Entry for").WebList("project").Select DataTable("Project", dtGlobalSheet)
 Browser("Chronos Time Entry for").Page("Chronos Time Entry for").WebList("subproject").Select DataTable("Subproject", dtGlobalSheet)
 Browser("Chronos Time Entry for").Page("Chronos Time Entry for").WebList("activity").Select DataTable("Activity", dtGlobalSheet)
-Browser("Chronos Time Entry for").Page("Chronos Time Entry for").WebButton("Save").Click
+Browser("Chronos Time Entry for").Page("Chronos Time Entry for").WebButton("Save_2").Click
