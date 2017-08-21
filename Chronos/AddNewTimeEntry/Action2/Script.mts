@@ -1,4 +1,6 @@
-﻿Browser("Chronos Time Entry for").Sync
+﻿testPath = Environment("TestDir")
+RepositoriesCollection.Add(testPath&"\ObjectRepositories\InputEntryValues.tsr")
+
 Browser("Chronos Time Entry for").Page("Chronos Time Entry for").WebEdit("hours").Set DataTable("Hours", dtGlobalSheet)
 Browser("Chronos Time Entry for").Page("Chronos Time Entry for").WebEdit("comments").Set DataTable("Comments", dtGlobalSheet)
 Browser("Chronos Time Entry for").Page("Chronos Time Entry for").WebEdit("otherComments").Set DataTable("Task", dtGlobalSheet)

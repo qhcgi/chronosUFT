@@ -1,4 +1,7 @@
-﻿Browser("Chronos Time Entry for").Sync
+﻿testPath = Environment("TestDir")
+RepositoriesCollection.Add(testPath&"\ObjectRepositories\DeleteEntry.tsr")
+
+Browser("Chronos Time Entry for").Sync
 Browser("Chronos Time Entry for_2").Page("Chronos Time Entry for").Check CheckPoint("Check Hours")
 Browser("Chronos Time Entry for_2").Page("Chronos Time Entry for").Check CheckPoint("Check Activity") @@ hightlight id_;_Browser("Chronos Time Entry for_2").Page("Chronos Time Entry for")_;_script infofile_;_ZIP::ssf3.xml_;_
 Browser("Chronos Time Entry for_2").Page("Chronos Time Entry for").Check CheckPoint("Check Comments") @@ hightlight id_;_Browser("Chronos Time Entry for_2").Page("Chronos Time Entry for")_;_script infofile_;_ZIP::ssf4.xml_;_

@@ -15,6 +15,7 @@ Action0=Action0\Script.mts
 BeginEntry=Action1\Script.mts
 InputEntryValues=Action2\Script.mts
 DeleteEntry=Action3\Script.mts
+LoadData=Action4\Script.mts
 
 [VuserProfiles]
 Profiles=Default Profile
@@ -37,18 +38,12 @@ ProductName=HPE Unified Functional Testing
 Version=14.0
 
 [TulipAddins]
-ActiveX=
 Database=
 File Content=
 Insight=
-Silverlight=
 Windows Applications=
 TEA=
-Visual Basic=
 Web=
-.NET=
-Windows Runtime=
-WPF=
 XML=
 
 [ExtraFiles]
@@ -67,3 +62,6 @@ Action2\ObjectRepository.bdb=
 Action3\Script.mts=
 Action3\Resource.mtr=
 Action3\ObjectRepository.bdb=
+Action4\Script.mts=
+Action4\Resource.mtr=
+Action4\ObjectRepository.bdb=
