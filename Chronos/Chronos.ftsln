@@ -7,7 +7,6 @@ Project("") = "AddNewTimeEntry", "AddNewTimeEntry\Test.tsp", "F66F05C4-0A86-4F90
 		PathInformation = C:\Users\fredquentin.hickam\Documents\Unified Functional Testing\ChronosRepo\Chronos\AddNewTimeEntry\Test.tsp
 		Keyword = QTP
 		OpenAsReadOnly = False
-		BaselineId = 
 	EndProjectSection
 EndProject
 Global
@@ -20,5 +19,8 @@ Global
 		F66F05C4-0A86-4F90-81EF-E2B72F9DB9C9.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		F66F05C4-0A86-4F90-81EF-E2B72F9DB9C9.Release|Any CPU.Build.0 = Release|Any CPU
 		F66F05C4-0A86-4F90-81EF-E2B72F9DB9C9.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(Function Libraries) = postProject
+		HTMLResultsReports = C:\Users\awalton\Documents\GitHub\chronosUFT\Chronos\AddNewTimeEntry\FunctionLibraries\HTMLResultsReports.qfl
 	EndGlobalSection
 EndGlobal
